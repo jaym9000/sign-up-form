@@ -1,18 +1,23 @@
-.full-page{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-img{
-    opacity: 0.5;
-}
+@import "reset.css";
 
+/* image */
 .left-side{
     display: flex;
     position: relative;
     text-align: center;
-    width: 100%;
-    height: 100%;
+}
+
+/* credits for picture */
+.credits{
+    position: absolute;
+    bottom: 10px;
+    left: 80px; 
+    color: white;
+}
+
+/* Link stays blue when clicked */
+a:visited{
+    color: blue;
 }
 
 .right-side{
