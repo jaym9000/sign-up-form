@@ -1,0 +1,1 @@
+!function(a,c,n){if("localhost"!==c){var e=c.replace(/\.gnavi\.co\.jp/,""),o=n.createElement(a);o.async=!0,o.src="//site.gnavi.co.jp/analysis/ga_"+e+".js",n.body.appendChild(o)}}("script",location.hostname,document);
