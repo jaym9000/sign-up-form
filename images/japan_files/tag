@@ -1,8 +1,0 @@
-BrightTag.site('ugpOkqj',function(s){
-s.script('https://s.yimg.jp/images/listing/tool/cv/ytag.js').wait(function(){
-s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n          yjDataLayer \x3d window.yjDataLayer || [];\n\n          function ytag() {\n            yjDataLayer.push(arguments);\n          }\n\n          ytag({\x22type\x22:\x22ycl_cookie\x22, \x22config\x22:{\x22ycl_use_non_cookie_storage\x22:true}});\n      \x3c/script\x3e',{tagId:-4});
-s.domready(function(){
-s.tag('\x3cscript type\x3d\x22text/javascript\x22\x3e\n        (function(f) {\n          var n \x3d function() {\n            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);\n          };\n          f.fbq \x3d f.fbq ? f.fbq : n;\n          f._fbq \x3d f._fbq ? f._fbq : n;\n          n.push \x3d n;\n          n.loaded \x3d !0;\n          n.version \x3d \x272.5\x27;\n          n.agent \x3d \x27sig\x27;\n          n.queue \x3d [];\n          f.fbq(\x27init\x27, "231105137318107");\n          if(true){\n            f.fbq(\x27track\x27, \x27PageView\x27);\n          }\n        })(window);\n      \x3c/script\x3e\n      \x3cscript async type\x3d\x22text/javascript\x22 src\x3d\x22https://connect.facebook.net/en_US/fbevents.js\x22\x3e\x3c/script\x3e',{tagId:107503650});
-});
-});
-});
