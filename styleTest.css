@@ -1,0 +1,40 @@
+/* TEST CSS ENVIRONMENT */
+
+@import "reset.css";
+
+/* Full page split */
+.page-split{
+    display: flex;
+    position: relative;
+}
+
+.back-ground{
+
+}
+
+/* Straw hat logo */
+.straw-hat{
+    width: 10%;
+    float: left;
+}
+
+/* straw hat logo plus text container */
+.logo-text{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+
+/* credits for picture */
+.credits{
+    position: absolute;
+    bottom: 10px;
+    left: 20%; 
+    color: white;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+/* Link stays blue when clicked */
+a:visited{
+    color: rgb(0, 200, 255);
+}
