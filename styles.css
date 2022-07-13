@@ -1,5 +1,10 @@
 @import "reset.css";
 
+.page-split{
+    display: flex;
+    /* flex-direction: column; */
+}
+
 /* image */
 .left-side{
     display: flex;
@@ -7,19 +12,26 @@
     text-align: center;
 }
 
+img{
+    width: 80%;
+}
+
 /* credits for picture */
 .credits{
     position: absolute;
     bottom: 10px;
-    left: 80px; 
+    left: 20%; 
+    /* color: rgb(0, 255, 17); */
     color: white;
+    background: rgb(0, 0, 0, 0.3);
+    
 }
 
 /* Link stays blue when clicked */
 a:visited{
-    color: blue;
+    color: rgb(0, 200, 255);
 }
 
 .right-side{
-    
+
 }
