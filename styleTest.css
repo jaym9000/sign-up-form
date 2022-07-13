@@ -9,7 +9,7 @@
 }
 
 .back-ground{
-
+    width: 80%;
 }
 
 /* Straw hat logo */
@@ -21,15 +21,23 @@
 /* straw hat logo plus text container */
 .logo-text{
     position: absolute;
-    left: 20%;
     top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0, 0.3);
+    font-family: 'One Piece', sans-serif;
+    font-size: 20px;     
+    color: white; 
+    /* width: 39%; */
+
 }
 
 /* credits for picture */
 .credits{
     position: absolute;
     bottom: 10px;
-    left: 20%; 
+    left: 10%; 
     color: white;
     background: rgb(0, 0, 0, 0.3);
 }
