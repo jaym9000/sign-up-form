@@ -66,7 +66,29 @@ a:visited{
     justify-content: space-evenly;
 }
 
-.join-us{
+.right-top{
+    padding: 0 4% 0 4%;
+    margin-right: 20%;
+}
+
+.right-middle{
+    padding: 0 4% 0 4%;
+    margin-right: 20%;
+}
+
+/* label { 
+    display:block 
+} */
+
+#first_name{
+    float: left;
+}
+
+#first_name, #last_name {
+    display: inline-block; /* or inline */
+}
+
+.right-bottom{
     padding: 0 4% 0 4%;
     margin-right: 20%;
 }
