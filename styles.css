@@ -1,45 +1,50 @@
 @import "reset.css";
 
-.page-split{
-    display: flex;
-    /* flex-direction: column; */
+/* parent of document */
+html{
+    height: 100%;
+    font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
 }
 
-/* image */
+/********************************************/
+/* Entire left side of page */
 .left-side{
-    display: flex;
-    position: relative;
-    text-align: center;
+    width: 35%;
+    height: 100vh;
+    float: left;
 }
 
+/* background image on the left */
 .back-ground{
-    width: 80%;
+    width: 100%;
+    height: 100%;
 }
 
-.straw-hat{
+/* Straw hat logo */
+.flag{
+    width: 10%;
+    float: left;
+
+}
+
+/* Japanese flag logo plus text container */
+.flag-text{
     position: absolute;
-    width: 15%;
-    left: 20%;
-    top: 30%;
-    background-color: black;
-}
-
-.crew{
-    position: absolute;
-    left: 36%;
-    top: 33%;
-}
-
-.title-background{
-    background: black;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0, 0.3);
+    font-size: 20px;     
+    color: white; 
+    width: 35%;
 }
 
 /* credits for picture */
 .credits{
     position: absolute;
-    bottom: 10px;
-    left: 20%; 
-    /* color: rgb(0, 255, 17); */
+    bottom: 2%;
+    left: 10%; 
     color: white;
     background: rgb(0, 0, 0, 0.3);
 }
@@ -49,15 +54,9 @@ a:visited{
     color: rgb(0, 200, 255);
 }
 
+/********************************************/
+/* Right side starts here */
 .right-side{
-    flex-direction: column;
-    margin-right: 20%;
-}
-
-.right-top{
-    height: 33%;
-}
-
-.right-middle{
-    height: 33%;
+    width: 65%;
+    float: right;
 }
