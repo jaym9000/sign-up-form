@@ -66,11 +66,13 @@ a:visited{
     justify-content: space-evenly;
 }
 
+/* Top right box with text */
 .right-top{
     padding: 0 4% 0 4%;
     margin-right: 20%;
 }
 
+/* middle box with forms */
 .right-middle{
     padding: 0 4% 0 4%;
     margin-right: 20%;
@@ -88,6 +90,7 @@ a:visited{
     display: inline-block; /* or inline */
 }
 
+/* bottom right box with submit button */
 .right-bottom{
     padding: 0 4% 0 4%;
     margin-right: 20%;
