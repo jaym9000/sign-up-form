@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up-Form</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Allan"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Container for flex box -->
     <div class="page-split">
+      <!-- Left side of page (image etc) -->
+      <div class="left-side">
+        <img class="back-ground" src="images/japan.jpg" alt="japan" />
 
-        <!-- Left side of page (image etc) -->
-        <div class="left-side">
-
-            <img class="back-ground" src="images/japan.jpg" alt="japan" >
-
-                <div class="flag-text">
-                    <img src="images/japan-logo.png" alt="japan-flag" class="flag">
-                    <div class="invite">Visit Japan!</div>
-                </div>
-
-            <!-- Credits -->
-            <div class="credits">Photo by <a href="https://www.pinterest.ca/alexelovely/" target="_blank">Alexe Larouche</a> on <a href="https://www.pinterest.ca/alexelovely/travel/" target="_blank">Pintrest</a>.</div>
+        <div class="flag-text">
+          <img src="images/japan-logo.png" alt="japan-flag" class="flag" />
+          <div class="invite">Visit Japan!</div>
         </div>
 
-        <!-- Right side of page (form etc) -->
-        <div class="right-side">
-            <div class="right-top">
-                <div class="join-us">Japan's got some of the best nature, as well as Mount Fuji which you can see in the image on the left. Japan is ranked top 10 for safest countries in the world year after year according to many sources you can find online. Lastly, the food.. the food is amazing! There is much more reasons on why you should sign this form and travel to Japan, you'd have to find out for yourself! See you soon &#x1F60A;</div>
-            </div>
-            <div class="right-middle">
-                <div>Let's do this!</div> 
-                <br>
-                <label for="first_name">First Name</label> <br>
-                <input type="text" id="first_name" name="first_name">
-
-                <label for="last_name">Last Name</label> <br>
-                <input type="text" id="last_name" name="last_name">
-
-            </div>
-            <div class="right-bottom">
-                <button>Apply</button>
-            </div>
+        <!-- Credits -->
+        <div class="credits">
+          Photo by
+          <a href="https://www.pinterest.ca/alexelovely/" target="_blank"
+            >Alexe Larouche</a
+          >
+          on
+          <a href="https://www.pinterest.ca/alexelovely/travel/" target="_blank"
+            >Pintrest</a
+          >.
         </div>
+      </div>
+
+      <!-- Right side of page (form etc) -->
+      <div class="right-side">
+        <div class="right-top">
+          <div class="join-us">
+            Japan's got some of the best nature, as well as Mount Fuji which you
+            can see in the image on the left. Japan is ranked top 10 for safest
+            countries in the world year after year according to many sources you
+            can find online. Lastly, the food.. the food is amazing! There is
+            much more reasons on why you should sign this form and travel to
+            Japan, you'd have to find out for yourself! See you soon &#x1F60A;
+          </div>
+        </div>
+        <div class="right-middle">
+          <div>Let's do this!</div>
+          <br />
+
+          <div class="forms">
+            <form action="example.com/path" method="post">
+              <label for="first_name">First Name</label> <br />
+              <input type="text" id="first_name" name="first_name" />
+            </form>
+
+            <form action="example.com/path" method="post">
+              <label for="last_name">Last Name</label> <br />
+              <input type="text" id="last_name" name="last_name" />
+            </form>
+
+            <form action="example.com/path" method="post">
+              <label for="user_email">Email Address:</label> <br />
+              <input type="email" id="user_email" name="email" />
+              <!-- placeholder="you@example.com" -->
+            </form>
+
+            <form action="example.com/path" method="post">
+              <label for="telNo">Phone number: </label> <br />
+              <input id="telNo" name="telNo" type="tel" list="defaultTels" />
+            </form>
+          </div>
+        </div>
+        <div class="right-bottom">
+          <button>Apply</button>
+        </div>
+      </div>
     </div>
-   
-</body>
+  </body>
 </html>

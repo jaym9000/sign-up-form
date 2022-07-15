@@ -1,97 +1,91 @@
 @import "reset.css";
 
 /* parent of document */
-html{
-    height: 100%;
-    font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+html {
+  height: 100%;
+  font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
 }
 
 /********************************************/
 /* Entire left side of page */
-.left-side{
-    width: 35%;
-    height: 100vh;
-    float: left;
+.left-side {
+  width: 35%;
+  height: 100vh;
+  float: left;
 }
 
 /* background image on the left */
-.back-ground{
-    width: 100%;
-    height: 100%;
+.back-ground {
+  width: 100%;
+  height: 100%;
 }
 
 /* Straw hat logo */
-.flag{
-    width: 10%;
-    float: left;
-
+.flag {
+  width: 10%;
+  float: left;
 }
 
 /* Japanese flag logo plus text container */
-.flag-text{
-    position: absolute;
-    top: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgb(0, 0, 0, 0.3);
-    font-size: 45px;     
-    color: white; 
-    width: 35%;
+.flag-text {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0, 0.3);
+  font-size: 45px;
+  color: white;
+  width: 35%;
 }
 
 /* credits for picture */
-.credits{
-    position: absolute;
-    bottom: 2%;
-    left: 10%; 
-    color: white;
-    background: rgb(0, 0, 0, 0.3);
+.credits {
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+  color: white;
+  background: rgb(0, 0, 0, 0.3);
 }
 
 /* Link stays blue when clicked */
-a:visited{
-    color: rgb(0, 200, 255);
+a:visited {
+  color: rgb(0, 200, 255);
 }
 
 /********************************************/
 /* Right side starts here */
-.right-side{
-    width: 65%;
-    float: right;
+.right-side {
+  width: 65%;
+  float: right;
 
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 /* Top right box with text */
-.right-top{
-    padding: 0 4% 0 4%;
-    margin-right: 20%;
+.right-top {
+  padding: 0 4% 0 4%;
+  margin-right: 20%;
 }
 
 /* middle box with forms */
-.right-middle{
-    padding: 0 4% 0 4%;
-    margin-right: 20%;
+.right-middle {
+  padding: 0 4% 0 4%;
+  margin-right: 20%;
 }
 
-/* label { 
-    display:block 
-} */
-
-#first_name{
-    float: left;
-}
-
-#first_name, #last_name {
-    display: inline-block; /* or inline */
+/* Put forms on same line */
+.forms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
 }
 
 /* bottom right box with submit button */
-.right-bottom{
-    padding: 0 4% 0 4%;
-    margin-right: 20%;
+.right-bottom {
+  padding: 0 4% 0 4%;
+  margin-right: 20%;
 }
