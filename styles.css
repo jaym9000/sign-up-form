@@ -78,9 +78,20 @@ a:visited {
 }
 
 /* Put forms on same line */
-.forms {
+/* .forms {
   display: flex;
   flex-wrap: wrap;
+  gap: 150px;
+} */
+
+label,
+input {
+  display: flex;
+  float: left;
+}
+
+label {
+  margin-bottom: 20px;
 }
 
 /* bottom right box with submit button */
