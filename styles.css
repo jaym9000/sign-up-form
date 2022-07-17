@@ -78,8 +78,8 @@ a:visited {
 /* middle box with forms */
 .right-middle {
   padding: 2% 4% 0 4%;
-
   height: 33vh;
+  box-shadow: 0 4px 8px -4px grey;
 }
 
 /* Text above forms */
@@ -109,11 +109,26 @@ a:visited {
 /* puts space between input forms */
 input {
   margin-bottom: 20px;
+  border-style: solid;
+  border-color: #e5e7eb;
 }
 
 /* bottom right box with submit button */
 .right-bottom {
-  padding: 2% 20% 40px 4%;
+  padding: 4% 20% 40px 4%;
   height: 33vh;
   background-color: rgb(227, 227, 224, 0.2);
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 4px 8px -4px grey;
+}
+
+.right-bottom-p {
+  padding-top: 30px;
 }
