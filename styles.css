@@ -97,7 +97,7 @@ a:visited {
 .left-forms {
   display: flex;
   flex-direction: column;
-  margin-right: 75px;
+  margin-right: 20%;
 }
 
 /* designs right column */
@@ -109,7 +109,10 @@ a:visited {
 /* puts space between input forms */
 input {
   margin-bottom: 20px;
+  width: 150%;
+  border-radius: 3px;
   border-style: solid;
+  border-width: 1px;
   border-color: #e5e7eb;
 }
 
@@ -120,6 +123,7 @@ input {
   background-color: rgb(227, 227, 224, 0.2);
 }
 
+/* apply button */
 button {
   background-color: #596d48;
   color: white;
@@ -128,7 +132,16 @@ button {
   border-style: none;
   box-shadow: 0 4px 8px -4px grey;
 }
+/* button on click */
+button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
 
+/* bottom right text under apply button */
 .right-bottom-p {
   padding-top: 30px;
 }
