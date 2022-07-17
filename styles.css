@@ -75,6 +75,7 @@ a:visited {
 .right-middle {
   padding: 0 4% 0 4%;
   margin-right: 20%;
+  height: 156.5px;
 }
 
 /* Put forms on same line */
@@ -88,6 +89,9 @@ label,
 input {
   display: flex;
   float: left;
+}
+
+label > input {
 }
 
 label {
