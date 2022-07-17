@@ -62,13 +62,16 @@ a:visited {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 /* Top right box with text */
 .right-top {
   padding: 0 4% 0 4%;
   margin-right: 20%;
+  height: 33vh;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(0, 200, 255);
 }
 
 /* middle box with forms */
@@ -78,23 +81,26 @@ a:visited {
   height: 156.5px;
 }
 
-/* Put forms on same line */
-/* .forms {
+/* makes forms flexbox */
+.my-form {
   display: flex;
-  flex-wrap: wrap;
-  gap: 150px;
-} */
+}
 
-label,
+/* designs left column */
+.left-forms {
+  display: flex;
+  flex-direction: column;
+  margin-right: 75px;
+}
+
+/* designs right column */
+.right-forms {
+  display: flex;
+  flex-direction: column;
+}
+
+/* puts space between input forms */
 input {
-  display: flex;
-  float: left;
-}
-
-label > input {
-}
-
-label {
   margin-bottom: 20px;
 }
 
