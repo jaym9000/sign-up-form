@@ -80,6 +80,7 @@ a:visited {
   padding: 2% 4% 0 4%;
   height: 33vh;
   box-shadow: 0 4px 8px -4px grey;
+  padding-bottom: 15px;
 }
 
 /* Text above forms */
