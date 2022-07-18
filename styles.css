@@ -106,11 +106,37 @@ a:visited {
   flex-direction: column;
 }
 
+/* Labels above text */
+label {
+  padding-bottom: 5px;
+}
+
 /* puts space between input forms */
 input {
   margin-bottom: 20px;
   width: 150%;
-  border-radius: 3px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5e7eb;
+}
+
+/* input when clicked */
+input:focus {
+  border-color: blue;
+  box-shadow: 0 4px 8px -4px grey;
+}
+/* input when not valid */
+input:invalid {
+  border: none;
+  outline: solid red;
+}
+
+/* input when valid */
+input:valid {
+  margin-bottom: 20px;
+  width: 150%;
+  border-radius: 2px;
   border-style: solid;
   border-width: 1px;
   border-color: #e5e7eb;

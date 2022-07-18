@@ -56,7 +56,12 @@
           <br />
 
           <!-- <div class="forms"> -->
-          <form action="example.com/path" method="post" class="my-form">
+          <form
+            action="example.com/path"
+            method="post"
+            class="my-form"
+            id="my-form"
+          >
             <div class="left-forms">
               <label for="first_name"> First Name</label>
               <input type="text" id="first_name" name="first_name" />
@@ -65,7 +70,13 @@
               <input type="email" id="user_email" name="email" />
 
               <label for="password">Password</label>
-              <input type="password" id="password" name="password" required />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="error"
+                required
+              />
             </div>
 
             <div class="right-forms">
@@ -87,7 +98,7 @@
           <!-- </div> -->
         </div>
         <div class="right-bottom">
-          <button type="submit">Apply</button>
+          <button type="submit" form="my-form">Apply</button>
           <p class="right-bottom-p">
             Not convinced? <a href="" target="_blank">Click here</a> for more
             info
