@@ -70,7 +70,7 @@ a:visited {
   display: flex;
   align-items: flex-end;
   padding: 0 20% 40px 4%;
-  background-color: rgb(227, 227, 224, 0.2);
+  background-color: rgb(217, 157, 211, 0.2);
   font-weight: bolder;
   font-size: 20px;
 }
@@ -79,7 +79,7 @@ a:visited {
 .right-middle {
   padding: 2% 4% 0 4%;
   height: 33vh;
-  box-shadow: 0 4px 8px -4px grey;
+  box-shadow: 0 4px 8px -4px rgb(225, 140, 217);
   padding-bottom: 15px;
 }
 
@@ -127,11 +127,6 @@ input:focus {
   border-color: blue;
   box-shadow: 0 4px 8px -4px grey;
 }
-/* input when not valid */
-input:invalid {
-  border: none;
-  outline: solid red;
-}
 
 /* input when valid */
 input:valid {
@@ -143,11 +138,19 @@ input:valid {
   border-color: #e5e7eb;
 }
 
+/* error message under password */
+.validation {
+  font-size: 11px;
+  color: red;
+  position: absolute;
+  top: 480px;
+}
+
 /* bottom right box with submit button */
 .right-bottom {
   padding: 4% 20% 40px 4%;
   height: 33vh;
-  background-color: rgb(227, 227, 224, 0.2);
+  background-color: rgba(217, 157, 211, 0.2);
 }
 
 /* apply button */

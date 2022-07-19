@@ -41,12 +41,11 @@
       <div class="right-side">
         <div class="right-top">
           <div class="join-us">
-            Japan's got some of the best nature, as well as Mount Fuji which you
-            can see in the image on the left. Japan is ranked top 10 for safest
-            countries in the world year after year according to many sources you
-            can find online. Lastly, the food.. the food is amazing! There are
-            many more reasons on why you should sign this form and travel to
-            Japan, you'd have to find out for yourself! <br />
+            Apply below to get a free ticket to Japan! You'll be able to witness
+            some of the best nature, as well as Mount Fuji which you can see in
+            the image on the left. You'll also be able to eat the food.. the
+            food is amazing! Apply and get a free ticket!
+            <br />
             <br />
             See you soon &#x1F60A;
           </div>
@@ -58,17 +57,18 @@
 
           <!-- <div class="forms"> -->
           <form
-            action="example.com/path"
+            action="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
             method="post"
             class="my-form"
             id="my-form"
+            onsubmit="return validation()"
           >
             <div class="left-forms">
               <label for="first_name"> First Name</label>
-              <input type="text" id="first_name" name="first_name" />
+              <input type="text" id="first_name" name="first_name" required />
 
               <label for="user_email">Email Address</label>
-              <input type="email" id="user_email" name="email" />
+              <input type="email" id="user_email" name="email" required />
 
               <label for="password">Password</label>
               <input
@@ -96,10 +96,11 @@
               />
             </div>
           </form>
+          <div class="validation" id="validation"></div>
           <!-- </div> -->
         </div>
         <div class="right-bottom">
-          <button type="submit" form="my-form">Apply</button>
+          <button type="submit" form="my-form" id="submit">Apply</button>
           <p class="right-bottom-p">
             Not convinced? <a href="" target="_blank">Click here</a> for more
             info
